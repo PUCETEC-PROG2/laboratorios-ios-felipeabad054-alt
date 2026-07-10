@@ -9,11 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView{
+            RepoList()
+                .tabItem{
+                    Label("Repositorios", systemImage: "arrow.branch")
+                }
+            RepoList()
+                .tabItem{
+                    Label("Crear Repo", systemImage: "plus")
+                }
+            RepoList()
+                .tabItem{
+                    Label("Perfil", systemImage: "person.circle")
+                }
+            
+            
+            
+            
         }
         .padding()
     }
