@@ -20,7 +20,7 @@ struct ContentView: View {
                 }
             RepoList()
                 .tabItem{
-                    Label("Perfil", systemImage: "person.circle")
+                    Label("Perfil", systemImage: "person")
                 }
             
             
