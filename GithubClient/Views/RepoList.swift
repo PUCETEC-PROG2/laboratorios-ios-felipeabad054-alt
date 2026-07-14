@@ -12,7 +12,7 @@ struct RepoList: View {
             VStack{
                 Text ("Lista de Repositorios")
             }
-            .navigationTitle("Repsitorios")
+            .navigationTitle("Repositorios")
         }
     }
 }
